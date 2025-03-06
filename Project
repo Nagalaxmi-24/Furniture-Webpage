@@ -1,0 +1,5 @@
+create database coding;
+use coding;
+create table users(id int primary key auto_increment,username varchar(50),email varchar(50),password varchar(20));
+describe users;
+select * from users;
